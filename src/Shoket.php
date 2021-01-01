@@ -86,7 +86,7 @@ class Shoket
      */
     public function verifyPaymentRequest(string $reference, array $data): mixed
     {
-        $response = $this->client->request('POST', 'verify/' . $reference, ['json' => $data]);
+        $response = $this->client->request('GET', 'verify/' . $reference, ['json' => $data]);
 
         return json_decode($response->getBody()->getContents(), true);
     }
