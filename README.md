@@ -15,8 +15,23 @@ composer require shoket/php-shoket
 ## Usage
 
 ```php
-$shoket = new Shoket();
+$shoket = new Shoket(['apiSecret' => 'your-api-key']);
+
+$response = $shoket->makePaymentRequest([
+    "amount" => "5000",
+    "customer_name" => "John Doe",
+    "email" => "john@user.com",
+    "number_used" => "255612345678",
+    "channel" => "Tigo",
+]);
+
+print_r($response);
 ```
+
+## API Documentation
+
+-   makePaymentRequest
+-   verifyPayment
 
 ## Testing
 
