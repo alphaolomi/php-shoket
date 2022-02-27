@@ -1,6 +1,6 @@
 # Shoket Client for PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alphaolomi/php-shoket.svg?style=flat-square)](https://packagist.org/packages/shoket/php-shoket)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/shoket/php-shoket.svg?style=flat-square)](https://packagist.org/packages/shoket/php-shoket)
 [![Tests](https://github.com/alphaolomi/php-shoket/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/alphaolomi/php-shoket/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/shoket/php-shoket.svg?style=flat-square)](https://packagist.org/packages/shoket/php-shoket)
 
