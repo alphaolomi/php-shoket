@@ -2,6 +2,12 @@
 
 All notable changes to `php-shoket` will be documented in this file.
 
-## 1.0.0 - 202X-XX-XX
+## 0.0.1 - 2022-02-27
 
-- initial release
+## What's new
+
+-   initial release
+
+## Features
+-   makePaymentRequest 
+-   verifyPaymentRequest
