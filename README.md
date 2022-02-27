@@ -4,7 +4,11 @@
 [![Tests](https://github.com/alphaolomi/php-shoket/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/alphaolomi/php-shoket/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/shoket/php-shoket.svg?style=flat-square)](https://packagist.org/packages/shoket/php-shoket)
 
-## Installation
+## Documentation
+
+You can find the documentation for this package on [Docs](https://alphaolomi.github.io/php-shoket/)
+
+## [Installation](/installation)
 
 You can install the package via composer:
 
