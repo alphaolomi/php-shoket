@@ -23,7 +23,7 @@ class Shoket
     /** var string  apiSecret */
     private string $apiKey;
 
-    public function __construct(array $options = [], $client = null)
+    public function __construct(array $options = [], Client $client = null)
     {
         if (array_key_exists('apiSecret', $options)) {
             $this->apiKey = $options['apiSecret'];
