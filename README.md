@@ -8,7 +8,7 @@
 
 You can find the documentation for this package on [Docs](https://alphaolomi.github.io/php-shoket/)
 
-## [Installation](/installation)
+## Installation
 
 You can install the package via composer:
 
