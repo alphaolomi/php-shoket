@@ -5,9 +5,13 @@
         "alphaolomi",
         "php-shoket",
         "shoket",
+        "tanzania",
+        "payment-api",
+        "php-shoket",
+        "mobile-money",
         "payments"
     ],
-    "homepage": "https://github.com/alphaolomi/php-shoket",
+    "homepage": "https://alphaolomi.github.io/php-shoket/",
     "license": "MIT",
     "authors": [
         {
