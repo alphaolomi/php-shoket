@@ -14,13 +14,13 @@ use GuzzleHttp\Client;
  */
 class Shoket
 {
-    /** var GuzzleHttp\Client Client */
+    /** @var \GuzzleHttp\Client Client */
     private Client $client;
 
-    /** var string  apiVersion */
+    /** @var string apiVersion */
     private string $apiVersion = 'v1';
 
-    /** var string  apiSecret */
+    /** @var string apiSecret */
     private string $apiKey;
 
     public function __construct(array $options = [], Client $client = null)
@@ -28,7 +28,7 @@ class Shoket
         if (array_key_exists('apiSecret', $options)) {
             $this->apiKey = $options['apiSecret'];
         } else {
-            throw new \InvalidArgumentException('API Secret is required, Visit https://developers.shoket.co/');
+            throw new \InvalidArgumentException('API Secret is required, To obtain visit https://developers.shoket.co/');
         }
 
         $this->client = $client instanceof Client ? $client : new Client([
@@ -49,6 +49,7 @@ class Shoket
      * @throws \GuzzleHttp\Exception\GuzzleException
      * @example
      * ```php
+     * //...
      * $shoket->makePayment([
      *  "amount" => "5000",
      *  "customer_name" => "John Doe",
