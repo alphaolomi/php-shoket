@@ -2,6 +2,8 @@
 
 All notable changes to `php-shoket` will be documented in this file.
 
+## v0.0.2 - 2022-02-27
+- Fix minor typo in URL endpoint
 ## v0.0.1 - 2022-02-27
 
 ## What's Changed
