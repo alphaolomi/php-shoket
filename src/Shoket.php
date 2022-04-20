@@ -62,7 +62,7 @@ class Shoket
      */
     public function makePaymentRequest(array $data): mixed
     {
-        $response = $this->client->request('POST', 'charge', ['json' => $data]);
+        $response = $this->client->request('POST', 'charge/', ['json' => $data]);
 
         return json_decode($response->getBody()->getContents(), true);
     }
