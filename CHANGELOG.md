@@ -2,8 +2,19 @@
 
 All notable changes to `php-shoket` will be documented in this file.
 
+## v0.0.3 - 2022-05-25
+
+## What's Changed
+
+- fix: typo in verify method 730dcbaf34691870a50b66a2f386730bf3b8b669
+- build(deps): bump dependabot/fetch-metadata from 1.2.1 to 1.3.1 by @dependabot in https://github.com/alphaolomi/php-shoket/pull/15
+
+**Full Changelog**: https://github.com/alphaolomi/php-shoket/compare/v0.0.2...v0.0.3
+
 ## v0.0.2 - 2022-02-27
+
 - Fix minor typo in URL endpoint
+
 ## v0.0.1 - 2022-02-27
 
 ## What's Changed
