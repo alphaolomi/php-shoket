@@ -2,6 +2,15 @@
 
 All notable changes to `php-shoket` will be documented in this file.
 
+## v0.0.5 - 2022-06-24
+
+### Updates
+
+- Update version constrain with php-shoket
+
+<br>
+**Full Changelog**: https://github.com/alphaolomi/php-shoket/compare/v0.0.3...v0.0.5
+
 ## v0.0.3 - 2022-05-25
 
 ## What's Changed
