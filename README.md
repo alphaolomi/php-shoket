@@ -15,9 +15,9 @@ You can find the documentation for this package on [Docs](https://alphaolomi.git
 
 > Requires PHP 8.0 or higher
 
-You can install the package via composer:
-
 > For Laravel users there is a dedicated intergration package [laravel-shoket](https://github.com/alphaolomi/laravel-shoket)
+
+You can install the package via composer:
 
 ```bash
 composer require shoket/php-shoket
